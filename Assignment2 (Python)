@@ -1,0 +1,13 @@
+# Ineuron_DLCVNP
+# Q1. Create the pattern
+i = 0
+for i in range(0,6):
+    print("*"*i)
+for i in range(6,10):
+        print("*"*(10-i))
+# Q2. Reversing a string
+a = input("Input word:")
+
+c = a[::-1]
+print("Output:",c)
+
